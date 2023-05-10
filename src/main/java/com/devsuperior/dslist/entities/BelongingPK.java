@@ -14,7 +14,7 @@ import lombok.*;
 public class BelongingPK {
 
     @ManyToOne
-    @JoinColumn(name = "game_list_id")
+    @JoinColumn(name = "list_id")
     private GameList gameList;
     @ManyToOne
     @JoinColumn(name = "game_id")
